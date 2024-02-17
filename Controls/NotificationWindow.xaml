@@ -1,0 +1,11 @@
+﻿<Window x:Class="DetectingSystemBall.Controls.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:hc="https://handyorg.github.io/handycontrol"
+            Title="NotificationWindow" Height="100" Width="300"
+            WindowStyle="None" AllowsTransparency="True" Background="Transparent" Topmost="True">
+    <Grid>
+        <!-- 在这里放置 hc:Growl 控件 -->
+        <hc:Growl x:Name="GlobalGrowl" />
+    </Grid>
+</Window>
